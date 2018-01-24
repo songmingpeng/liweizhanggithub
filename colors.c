@@ -48,11 +48,11 @@ int main(void)
 	
 	printf( "\033[1;31m hello word \033[0m  \n" );
 	printf( "\033[40;31m hello word \033[0m \n" );
-	
+
 	printf("Date : %s\n", __DATE__);
-    printf("Time : %s\n", __TIME__);
-    printf("File : %s\n", __FILE__);
-    printf("Line : %d\n", __LINE__);
+	printf("Time : %s\n", __TIME__);
+	printf("File : %s\n", __FILE__);
+	printf("Line : %d\n", __LINE__);
 	
 }
 
